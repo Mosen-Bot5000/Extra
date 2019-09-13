@@ -1,0 +1,42 @@
+<style>
+   @font-face {
+    font-family: 'pix M 8pt';
+    src: url('MyFont.eot');
+    src: url('MyFont.eot?#iefix') format('embedded-opentype'),
+        url('MyFont.woff2') format('woff2'),
+        url('MyFont.woff') format('woff'),
+        url('MyFont.ttf') format('truetype'),
+        url('MyFont.svg#MyFont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+}
+
+div {
+  font-family: myFirstFont;
+}
+</style>
+    
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+Body{
+    text-align: center;
+    background-color: #03fcb6;
+}
+picture1 {
+}
+h1 {
+    font-size: 40px;
+        text-align: center;
+        
+}
+
+p1 {
+    font-size: 75px;
+        text-align: center;
+}
