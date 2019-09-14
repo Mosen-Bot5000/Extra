@@ -1,42 +1,49 @@
 <style>
-   @font-face {
-    font-family: 'pix M 8pt';
-    src: url('MyFont.eot');
-    src: url('MyFont.eot?#iefix') format('embedded-opentype'),
-        url('MyFont.woff2') format('woff2'),
-        url('MyFont.woff') format('woff'),
-        url('MyFont.ttf') format('truetype'),
-        url('MyFont.svg#MyFont') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 
-
-}
-
-div {
-  font-family: myFirstFont;
-}
 </style>
+
+
     
 img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
+    }
+
 Body{
-    text-align: center;
-    background-color: #03fcb6;
-}
-picture1 {
-}
+
+    
+    background-color: #42f5d4;
+    }
+
+picture1 { <!--Logo-->
+    }
+
 h1 {
-    font-size: 40px;
-        text-align: center;
-        
-}
+    font-size: auto;
+    max-width: 60%
+        }
 
 p1 {
-    font-size: 75px;
-        text-align: center;
+    font-size: 20px;
+        }
+
+div1 {
+    text-align: center;
+    }
+
+div2 {
+    font-size: 1%;
+    text-indent: 10%;
 }
+
+#top, #bottom, #left, #right {
+	background: url(https://3.bp.blogspot.com/-fRc-7TfpsXg/XE5W3S00EgI/AAAAAAAAGDA/YB8IoZQvCW42S4VyhvMyWvhlh7Er8nXyACHMYCw/s1600/desktop-background-space-architecture-modern-idea-%25E2%2580%25A2.jpg);
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 10%;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
