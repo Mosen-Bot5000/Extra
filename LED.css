@@ -47,7 +47,7 @@
         top: 60vh;
     }
         .card4:hover {
-        background: url("pics/watch1.png") no-repeat;
+        background: url("pics/watchi.png") no-repeat;
         background-size: contain;
     }
     .card5 {
@@ -88,7 +88,7 @@ img{
 Body{
 
     
-    background-image: linear-gradient(#5af2db, #03fcad);
+    background-image: linear-gradient(#00ddff, #03fcad, #00ddff);
     }
 
 picture1 { <!--Logo-->
@@ -115,13 +115,27 @@ div2 {
 }
 
 
-#left, #right {
-	background: url(https://3.bp.blogspot.com/-fRc-7TfpsXg/XE5W3S00EgI/AAAAAAAAGDA/YB8IoZQvCW42S4VyhvMyWvhlh7Er8nXyACHMYCw/s1600/desktop-background-space-architecture-modern-idea-%25E2%2580%25A2.jpg);
+#left{
+	background: url(pics/space2.png);
 	position:fixed;
 	}
-	#left, #right {
+	#left{
 		top: 0; bottom: 0;
 		width: 10%;
 		}
 		#left { left: 0; }
+
+#right {
+	background: url(pics/space.png);
+	position:fixed;
+	}
+	#right {
+		top: 0; bottom: 0;
+		width: 10%;
+		}
 		#right { right: 0; }
+
+picture2 {
+    max-height: 40vh;
+    width: auto;
+}
