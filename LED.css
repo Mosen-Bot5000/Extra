@@ -1,3 +1,77 @@
+<head>
+
+<style type="text/css">
+    .cardx {
+        background: url("pics/listeno.png") no-repeat;
+        background-size: contain;
+        display: inline-block; 
+        position: fixed;
+        left: 30%;
+        top: 45%;
+    }
+    .cardx:hover {
+        background: url("pics/listeni.png") no-repeat;
+        background-size: contain;
+    }
+    .card2 {
+        background: url("pics/listeno.png") no-repeat;
+        background-size: contain;
+        display: inline-block; 
+        position: fixed;
+        right: 30%;
+        top: 45%;
+    }
+    .card2:hover {
+        background: url("pics/listeni.png") no-repeat;
+        background-size: contain;
+    }
+    .card3 {
+        background: url("pics/whato.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+        position: fixed;
+        left: 20%;
+        top: 60vh;
+    }
+        .card3:hover {
+        background: url("pics/whati.png") no-repeat;
+        background-size: contain;
+    }
+    .card4 {
+        background: url("pics/watcho.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%);
+        top: 60vh;
+    }
+        .card4:hover {
+        background: url("pics/watch1.png") no-repeat;
+        background-size: contain;
+    }
+    .card5 {
+        background: url("pics/mercho.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+        position: fixed;
+        right: 20%;
+        top: 60vh;
+    }
+        .card5:hover {
+        background: url("pics/merchi.png") no-repeat;
+        background-size: contain;
+    }
+</style>
+
+
+
+
+</head>
+
+
+
+
 <style>
 
 </style>
@@ -21,16 +95,16 @@ picture1 { <!--Logo-->
     }
 
 h1 {
-    font-size: auto;
-    max-width: 70%
+    font-size: 3vh;
+    max-width: 70%;
         }
 
 p1 {
-    font-size: 20px;
+    font-size: 2vh;
+    max-width: 65%;
         }
 
 div1 {
-    text-align: center;
     }
 
 div2 {
