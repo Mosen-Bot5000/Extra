@@ -43,7 +43,7 @@ div2 {
 
 #left, #right {
 	background: url(https://3.bp.blogspot.com/-fRc-7TfpsXg/XE5W3S00EgI/AAAAAAAAGDA/YB8IoZQvCW42S4VyhvMyWvhlh7Er8nXyACHMYCw/s1600/desktop-background-space-architecture-modern-idea-%25E2%2580%25A2.jpg);
-	position: fixed;
+	position:fixed;
 	}
 	#left, #right {
 		top: 0; bottom: 0;
