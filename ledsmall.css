@@ -76,6 +76,9 @@
 
 </style>
 
+
+
+
 img{
     display: block;
     margin-left: auto;
@@ -85,19 +88,19 @@ img{
 Body{
 
     
-    background-image: linear-gradient(#ff0000, #000000, #ff0000);
+    background-image: linear-gradient(#00ddff, #ffffff);
     }
 
 picture1 { <!--Logo-->
     }
 
 h1 {
-    font-size: 5vh;
+    font-size: 3vh;
     max-width: 70%;
         }
 
 p1 {
-    font-size: 3vh;
+    font-size: 2vh;
     max-width: 65%;
         }
 
