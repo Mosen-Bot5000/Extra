@@ -1,0 +1,141 @@
+<head>
+
+<style type="text/css">
+    .cardx {
+        background: url("pics/listeno.png") no-repeat;
+        background-size: contain;
+        display: inline-block; 
+        position: fixed;
+        left: 30%;
+        top: 45%;
+    }
+    .cardx:hover {
+        background: url("pics/listeni.png") no-repeat;
+        background-size: contain;
+    }
+    .card2 {
+        background: url("pics/listeno.png") no-repeat;
+        background-size: contain;
+        display: inline-block; 
+        position: fixed;
+        right: 30%;
+        top: 45%;
+    }
+    .card2:hover {
+        background: url("pics/listeni.png") no-repeat;
+        background-size: contain;
+    }
+    .card3 {
+        background: url("pics/whato.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+        position: fixed;
+        left: 20%;
+        top: 60vh;
+    }
+        .card3:hover {
+        background: url("pics/whati.png") no-repeat;
+        background-size: contain;
+    }
+    .card4 {
+        background: url("pics/watcho.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%);
+        top: 60vh;
+    }
+        .card4:hover {
+        background: url("pics/watchi.png") no-repeat;
+        background-size: contain;
+    }
+    .card5 {
+        background: url("pics/mercho.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+        position: fixed;
+        right: 20%;
+        top: 60vh;
+    }
+        .card5:hover {
+        background: url("pics/merchi.png") no-repeat;
+        background-size: contain;
+    }
+</style>
+
+
+
+
+</head>
+
+
+
+
+<style>
+
+</style>
+
+
+
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+Body{
+
+    
+    background-image: linear-gradient(#00ddff, #ffffff);
+    }
+
+picture1 { <!--Logo-->
+    }
+
+h1 {
+    font-size: 3vh;
+    max-width: 70%;
+        }
+
+p1 {
+    font-size: 2vh;
+    max-width: 65%;
+        }
+
+div1 {
+    }
+
+div2 {
+    font-size: 10px;
+    margin-left: 10%;
+    position: absolute;
+    bottom: 0px;
+}
+
+
+#left{
+	background: url(pics/space2.png);
+	position:fixed;
+	}
+	#left{
+		top: 0; bottom: 0;
+		width: 10%;
+		}
+		#left { left: 0; }
+
+#right {
+	background: url(pics/space.png);
+	position:fixed;
+	}
+	#right {
+		top: 0; bottom: 0;
+		width: 10%;
+		}
+		#right { right: 0; }
+
+picture2 {
+    max-height: 40vh;
+    width: auto;
+}
