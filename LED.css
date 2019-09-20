@@ -1,6 +1,12 @@
 <head>
 
+
+
+
 <style type="text/css">
+
+}
+
     .cardx {
         background: url("pics/listeno.png") no-repeat;
         background-size: contain;
@@ -62,6 +68,9 @@
         background: url("pics/merchi.png") no-repeat;
         background-size: contain;
     }
+    .text {
+    color: #00c735;
+    }
 </style>
 
 
@@ -76,6 +85,8 @@
 
 </style>
 
+
+
 img{
     display: block;
     margin-left: auto;
@@ -85,20 +96,30 @@ img{
 Body{
 
     
-    background-image: linear-gradient(#ff0000, #000000, #ff0000);
+    background-image: radial-gradient(#000000, #400000, #000000,#000000);
     }
 
 picture1 { <!--Logo-->
     }
 
 h1 {
-    font-size: 5vh;
+    font-size: 4.5vh;
     max-width: 70%;
+     display: inline-block;
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%);
+        top: 20vh;
         }
 
 p1 {
     font-size: 3vh;
-    max-width: 65%;
+    max-width: 50%;
+    display: inline-block;
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%);
+        top: 38vh;
         }
 
 div1 {
@@ -111,6 +132,10 @@ div2 {
     bottom: 0px;
 }
 
+picture2 {
+    max-height: 40vh;
+    width: auto;
+}
 
 #left{
 	background: url(pics/space2.png);
@@ -121,6 +146,16 @@ div2 {
 		width: 10%;
 		}
 		#left { left: 0; }
+#left2 {
+	background-color: maroon;
+	position:fixed;
+	}
+	#left2 {
+		top: 0; bottom: 0; left: 9.5%;
+		width: 0.5%;
+		}
+		#left { left: 0; }
+
 
 #right {
 	background: url(pics/space.png);
@@ -131,8 +166,15 @@ div2 {
 		width: 10%;
 		}
 		#right { right: 0; }
+#right2 {
+	background-color: maroon;
+	position:fixed;
+	}
+	#right2 {
+		top: 0; bottom: 0; right: 9.5%;
+		width: 0.5%;
+		}
+		#right { right: 0; }
 
-picture2 {
-    max-height: 40vh;
-    width: auto;
-}
+
+
