@@ -41,15 +41,17 @@
     Body{
         background-image: radial-gradient(#000000, #400000, #000000,#000000);}
 
+
+
     h1 {    /*Front Page*/
         font-size: 4vh;
-        max-width: 70%;
-       }
+        max-width: 70%;}
 
     p1 {    /*Front Page*/
         font-size: 3vh; 
-        max-width: 50%;
-       }
+        max-width: 50%;}
+
+
 
     h2 {    /*Every Other Page*/
         font-size: 4.5vh;
@@ -57,9 +59,11 @@
 
     p2 {    /*Every Other Page*/
         font-size: 3vh;
-        max-width: 50%;
+        max-width: 50vw;
         margin-left: 15%;
         margin-right: 15%;}
+
+
 
     div2 {  /*"Having trouble seeing this page?" Non Scrolling Pages*/ 
         font-size: 1.5vh;
