@@ -31,6 +31,25 @@
         margin-right: 12%;
         max-width: 1000px;}
 
+    .base{
+        font-family: 'pix M 8pt', 'times';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 1.5vh;
+        min-height: 5px;
+        margin-left: 10%;
+        position: fixed;
+        bottom: 10px;}
+
+    .bottom{
+        font-family: 'pix M 8pt', 'times';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 1.5vh;
+        min-height: 5px;
+        margin-left: 10%;
+        position: absolute;}
+
 </style>
 
     img{    /*Default Image Settings*/
@@ -53,6 +72,9 @@
 
 
 
+
+
+
     h2 {    /*Every Other Page*/
         font-size: 4.5vh;
         max-width: 70%;}
@@ -62,12 +84,31 @@
         max-width: 50%;}
 
 
-    div2 {  /*"Having trouble seeing this page?" Non Scrolling Pages*/ 
-        font-size: 1.5vh;
-        min-height: 5px;
-        margin-left: 10%;
-        position: absolute;
-        bottom: 0px;}
+
+
+
+    h3{
+        font-size: 3.5vh;
+        max-width: 60vw;
+        max-height: 50vh;
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%);
+        top: 18vh;}
+
+p3 {
+        color: black;
+        font-family: 'pix M 8pt', 'times';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 2vh;
+        max-width: 35vw;
+        max-height: 50vh;
+        position: fixed;
+        right: 12%;
+        top: 35vh;
+        background-color: gainsboro;}
+}
 
     div69 {    /*"Having trouble seeing this page?" All other pages*/
         font-size: 1.5vh;
