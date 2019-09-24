@@ -57,7 +57,9 @@
 
     p2 {    /*Every Other Page*/
         font-size: 3vh;
-        max-width: 50%;}
+        max-width: 50%;
+        margin-left: 15%;
+        margin-right: 15%;}
 
     div2 {  /*"Having trouble seeing this page?" Non Scrolling Pages*/ 
         font-size: 1.5vh;
