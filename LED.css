@@ -1,8 +1,11 @@
 @font-face {
     font-family: 'pix M 8pt';
-    src:url('https://github.com/MosenLED/Extra/blob/master/MyFont.woff2') format('woff2'),
-        url('https://github.com/MosenLED/Extra/blob/master/MyFont.woff') format('woff'),
-        url('https://github.com/MosenLED/Extra/blob/master/MyFont.ttf') format('truetype'),}
+    src: url('font/MyFont.eot');
+    src: url('font/MyFont.eot?#iefix') format('embedded-opentype'),
+        url('font/MyFont.woff2') format('woff2'),
+        url('font/MyFont.woff') format('woff'),
+        url('font/MyFont.ttf') format('truetype'),
+        url('font/MyFont.svg') format('svg');}
 
 <style>{}
     .logo {
@@ -15,13 +18,13 @@
 
     .text {
         color: #00c735;
-        font-family: 'pix M 8pt';
+        font-family: 'pix M 8pt', 'times';
         font-weight: normal;
         font-style: normal;}
     
     .paragraph {
         color: #03fcfc;
-        font-family: 'pix M 8pt';
+        font-family: 'pix M 8pt', Serif;
         font-weight: normal;
         font-style: normal;
         margin-left: 12%;
