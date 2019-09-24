@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'pix M 8pt';
+    src: url('MyFont.eot');
+    src: url('MyFont.eot?#iefix') format('embedded-opentype'),
+        url('MyFont.woff2') format('woff2'),
+        url('MyFont.woff') format('woff'),
+        url('MyFont.ttf') format('truetype'),
+        url('MyFont.svg#MyFont') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
 <style>{}
     .logo {
         max-width: 75vw;
@@ -9,7 +20,9 @@
 
     .text {
         color: #00c735;
-        font-family: "Times New Roman", Times, serif;}
+        font-family: 'pix M 8pt';
+        font-weight: normal;
+        font-style: normal;}
     
     .paragraph {
         color: #03fcfc;
