@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'pix M 8pt';
+    src:url('https://github.com/MosenLED/Extra/blob/master/MyFont.woff2') format('woff2'),
+        url('https://github.com/MosenLED/Extra/blob/master/MyFont.woff') format('woff'),
+        url('https://github.com/MosenLED/Extra/blob/master/MyFont.ttf') format('truetype'),}
+
+<style>{}
+    .logo {
+        max-width: 75vw;
+        max-height: 20vh;
+        border-style: outset;
+        border-color: #cc0e00;}
+        .logo:active {
+        border-style: inset;}
+
+    .text {
+        color: #00c735;
+        font-family: 'pix M 8pt';
+        font-weight: normal;
+        font-style: normal;}
+    
+    .paragraph {
+        color: #03fcfc;
+        font-family: 'pix M 8pt';
+        font-weight: normal;
+        font-style: normal;
+        margin-left: 12%;
+        margin-right: 12%;
+        max-width: 1000px;}
+
+</style>
+
+    img{    /*Default Image Settings*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;}
+
+    Body{
+        background-image: radial-gradient(#000000, #400000, #000000,#000000);}
+
+    h1 {    /*Front Page*/
+        font-size: 4vh;
+        max-width: 70%;
+        display: inline-block;
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%);
+        top: 20vh;}
+
+    p1 {    /*Front Page*/
+        font-size: 3vh; 
+        max-width: 50%;
+        display: inline-block;
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%);
+        top: 38vh;}
+
+    h2 {    /*Every Other Page*/
+        font-size: 4.5vh;
+        max-width: 70%;}
+
+    p2 {    /*Every Other Page*/
+        font-size: 3vh;
+        max-width: 50%;}
+
+    div2 {  /*"Having trouble seeing this page?" Non Scrolling Pages*/ 
+        font-size: 1.5vh;
+        min-height: 5px;
+        margin-left: 10%;
+        position: absolute;
+        bottom: 0px;}
+
+    div69 {    /*"Having trouble seeing this page?" All other pages*/
+        font-size: 1.5vh;
+        min-height: 5px;
+        margin-left: 10%;
+        position: absolute;}
+
+/* Border Stuff*/
+
+#left{
+	background: url(pics/space2.png);
+	position:fixed;}
+	   #left{
+		top: 0; bottom: 0;
+		width: 10%;}
+		  #left { left: 0; }
+
+#left2{
+	background-color: maroon;
+	position:fixed;}
+	   #left2 {
+        top: 0; bottom: 0; left: 9.5%;
+		width: 0.5%;}
+		  #left { left: 0; }
+
+
+#right {
+	background: url(pics/space.png);
+	position:fixed;}
+	   #right {
+		top: 0; bottom: 0;
+		width: 10%;}
+		  #right { right: 0; }
+
+#right2 {
+	background-color: maroon;
+	position:fixed;}
+	   #right2 {
+		top: 0; bottom: 0; right: 9.5%;
+		width: 0.5%;}
+		  #right { right: 0; }
