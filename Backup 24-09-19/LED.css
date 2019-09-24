@@ -1,8 +1,11 @@
 @font-face {
     font-family: 'pix M 8pt';
-    src:url('https://github.com/MosenLED/Extra/blob/master/MyFont.woff2') format('woff2'),
-        url('https://github.com/MosenLED/Extra/blob/master/MyFont.woff') format('woff'),
-        url('https://github.com/MosenLED/Extra/blob/master/MyFont.ttf') format('truetype'),}
+    src: url('font/MyFont.eot');
+    src: url('font/MyFont.eot?#iefix') format('embedded-opentype'),
+        url('font/MyFont.woff2') format('woff2'),
+        url('font/MyFont.woff') format('woff'),
+        url('font/MyFont.ttf') format('truetype'),
+        url('font/MyFont.svg') format('svg');}
 
 <style>{}
     .logo {
@@ -15,13 +18,13 @@
 
     .text {
         color: #00c735;
-        font-family: 'pix M 8pt';
+        font-family: 'pix M 8pt', 'times';
         font-weight: normal;
         font-style: normal;}
     
     .paragraph {
         color: #03fcfc;
-        font-family: 'pix M 8pt';
+        font-family: 'pix M 8pt', Serif;
         font-weight: normal;
         font-style: normal;
         margin-left: 12%;
@@ -38,23 +41,20 @@
     Body{
         background-image: radial-gradient(#000000, #400000, #000000,#000000);}
 
+
+
     h1 {    /*Front Page*/
         font-size: 4vh;
-        max-width: 70%;
-        display: inline-block;
-        position: fixed;
-        left: 50%;
-        transform: translate(-50%);
-        top: 20vh;}
+        max-width: 70%;}
 
     p1 {    /*Front Page*/
         font-size: 3vh; 
-        max-width: 50%;
-        display: inline-block;
-        position: fixed;
-        left: 50%;
-        transform: translate(-50%);
-        top: 38vh;}
+        max-width: 50%;}
+
+
+
+
+
 
     h2 {    /*Every Other Page*/
         font-size: 4.5vh;
@@ -63,6 +63,35 @@
     p2 {    /*Every Other Page*/
         font-size: 3vh;
         max-width: 50%;}
+
+
+
+
+
+    h3{
+        font-size: 3.5vh;
+        max-width: 60vw;
+        max-height: 50vh;
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%);
+        top: 18vh;}
+
+p3 {
+        color: black;
+        font-family: 'pix M 8pt', 'times';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 2vh;
+        max-width: 35vw;
+        max-height: 50vh;
+        position: fixed;
+        right: 12%;
+        top: 35vh;
+        background-color: gainsboro;}
+}
+
+
 
     div2 {  /*"Having trouble seeing this page?" Non Scrolling Pages*/ 
         font-size: 1.5vh;
