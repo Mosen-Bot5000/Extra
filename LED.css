@@ -107,7 +107,10 @@ p3 {
         position: fixed;
         right: 12%;
         top: 35vh;
-        background-color: gainsboro;}
+        background-color: #dcdcdc;
+        border: 3px;
+        border-style: outset;
+        border-color: white;}
 }
 
     div69 {    /*"Having trouble seeing this page?" All other pages*/
