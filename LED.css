@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'pix M 8pt';
     src: url('font/MyFont.eot');
@@ -30,6 +31,16 @@
         margin-left: 12%;
         margin-right: 12%;
         max-width: 1000px;}
+
+    .paragraphl {
+        color: #03fcfc;
+        font-family: 'pix M 8pt', Serif;
+        font-weight: normal;
+        font-style: normal;
+        max-width: 1000px;
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%);}
 
     .base{
         font-family: 'pix M 8pt', 'times';
